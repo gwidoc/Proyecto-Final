@@ -1,0 +1,253 @@
+*{
+    font-family: 'montserrat', sans-serif ;
+    margin: auto 0px;
+}
+
+html[Attributes Style] {
+    -webkit-locale: "en";
+}
+
+:root {
+    view-transition-name: root;
+}
+
+html {
+    display: block;
+}
+
+head {
+    display: none;
+}
+
+.body-day {
+    background-color: rgb(24, 28, 48);
+    color: #E6DDC4;
+    
+}
+
+body{
+    display: block;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 40px;
+}
+
+#logo{
+    cursor: pointer;
+}
+
+.footer-left{
+    display:flex ;
+    justify-content: space-between;
+    width: 300px;
+    height: 60px;
+}
+.logo{
+    height: 80px;
+}
+
+.menu {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+    
+}
+
+header {
+    background: url(./imagenes/codigo.jpg) 50% 0 fixed;
+    background-size: cover;
+    min-height: 500px;
+    color: #eeeeee;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+h2 {
+    text-shadow: 2px 2px black;
+    font-size: 40px;
+    text-align: center;
+    color: #678983;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.cont-padre {
+    margin: 100px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+main {
+    padding: 100px 20px;
+}
+
+footer {
+    background-color: #678983;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    color: #181D31;
+}
+
+
+
+video{
+    width: 500px;
+}
+
+section{
+    width: 520px;
+    padding: 2px;
+    background-color: rgb(167, 143, 48);
+}
+
+.barra-rep{
+    padding: 5px;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: darkolivegreen;
+    color: white;
+}
+
+
+.juego{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 300px;
+    
+
+}
+
+.cajas{
+    display: flex;
+    flex-direction: row;
+}
+
+.caja{
+    width:275px;
+    height: 400px;
+    display: flex;
+    border: 2px solid black;
+    background-color: grey;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#cajaimagenes{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 40px;
+}
+
+#imagen1, #imagen2, #imagen3{
+    width: 275px;
+    height: 400px;
+}
+
+.button{
+    background-color: aquamarine;
+}
+
+.item-link, .botonesVideo {
+    box-shadow: 2px 3px #678983;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #E6DDC4;
+    color: #181D31;
+    font-weight: 300;
+}
+
+.card-hist{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 50px;
+    gap: 20px;
+}
+
+.contenedor-video{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.cont-padre{
+    display: flex;
+    margin: 100px 0px;
+    width: 100%;
+    justify-content: space-evenly;
+    gap: 20px;
+    
+}
+
+.card{
+    width: 350px;
+    height: 400px;
+    display:flex;
+    flex-direction: column;
+    background-color: beige;
+    border: 5px solid burlywood;
+    
+
+}
+
+.desc-card{
+    color: black;
+    text-align: center;
+}
+
+.boton-ver{
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 40%;
+    align-items: center;
+    box-shadow: #678983;
+    text-align: center;
+}

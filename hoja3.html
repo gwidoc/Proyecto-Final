@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Proyecto-Final</title>
+</head>
+
+<body class="body-day">
+    <nav>
+
+        <svg id="logo" width="200" height="100">
+            <rect id="rectangulo" x="10" y="10" width="100" height="50" fill="#F0E9D2"></rect>
+            <polygon id="poligono" points="120,10 180,60 120,60" fill="#495579"></polygon>
+        </svg>
+
+        <ul class="menu">
+            <li class="item-menu"><a class="item-link" href="./hoja2.html">HISTORIA</a></li>
+            <li class="item-menu"><a class="item-link" href="./hoja3.html">JUGUEMOS</a></li>
+        </ul>
+
+    </nav>
+
+    <header>
+        <h1 class="titulo-blanco">JUGUEMOS UN POCO</h1> 
+        
+     </header>
+    
+     <main>
+        <h2>Armemos el rompecabezas y veamos que imagen es...</h2>
+
+        <section class="juego">
+            <div class="cajas">
+                <div class="caja" id="cajasoltar">
+                    <p>Arrastre y suelte la imágene aquí</p>
+                </div>
+                <div class="caja" id="cajasoltar2">
+                    Arrastre y suelte la imágene aquí
+                </div>
+                <div class="caja" id="cajasoltar3">
+                    Arrastre y suelte la imágene aquí
+                </div>
+            </div>
+
+            <div id="cajaimagenes">
+                <img id="imagen1" src="./imagenes/Rompe1.png" alt="imagen-rompe" draggable="true">
+                <img id="imagen3" src="./imagenes/Rompe3.png" alt="imagen-rompe" draggable="true">
+                <img id="imagen2" src="./imagenes/rompe2.png" alt="imagen-rompe" draggable="true">
+                
+            </div>
+            <button class="botonesvideo" onclick="reiniciar()">Reiniciar</button>
+
+        </section>
+
+     </main>
+
+     <footer>
+        <div class="footer-left">
+        <img class="logo" src="./imagenes/logo.png" alt="logo">
+            <h3 class="titulo-blanco titulo-foot">PROGRAMACION <br> E <br> HISTORIA </h3>
+        </div>
+           <div>Sitio con fines educativos - Creado por Gwido Cirione</div>
+    </footer>
+    
+    
+    
+        <script src="./script.js"></script>
+
